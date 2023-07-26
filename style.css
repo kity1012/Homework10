@@ -18,7 +18,7 @@ body {
 .lightsaber {
   position: relative;
   width: 80px;
-  height: 300px;
+  height: 200px;
   align-self: center;
   transform: scaleY(-1);
 }
@@ -65,9 +65,9 @@ body {
   flex-direction: row;
   position: relative;
   width: 300px;
-  height: 400px;
+  height: 500px;
   overflow: hidden;
-  margin: 10px;
+  margin: 5px;
 }
 
 .rod {
@@ -83,9 +83,9 @@ body {
 .ball {
   position: relative;
   top: 300px;
-  left: 110px;
-  width: 80px;
-  height: 40px;
+  left: 100px;
+  width: 100px;
+  height: 20px;
   background-color: #3498db;
   border-radius: 50%;
   animation: swing 2s ease-in-out infinite;
